@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teacher_mo: 1
+  class: MyString
+  number: 1
+  name: MyString
+  admin: false
+
+two:
+  teacher_mo: 1
+  class: MyString
+  number: 1
+  name: MyString
+  admin: false

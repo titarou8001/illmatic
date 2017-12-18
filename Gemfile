@@ -61,3 +61,5 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 gem 'bootstrap', '~> 4.0.0.beta2.1'
 gem 'jquery-rails'
+
+gem 'wdm', '>= 0.1.0'
