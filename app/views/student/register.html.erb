@@ -9,8 +9,18 @@
   <li>番号　　　<%= text_field_tag :pass, '', size: 3 %></li><br>
   <li>名前　　　<%= text_field_tag :pass, '', size: 8 %></li><br>
 
-  <input type="radio" name="選択" value="">教師</li>
-    <input type="radio" name="選択" value=""	checked>学生</li>
+  <div class="form-group row">
+  <div class="col-sm-2">
+  </div>
+  <div class="col-sm-10 btn-group" data-toggle="buttons">
+    <label class="btn btn-outline-secondary active" style="width:25%">
+      <%= radio_button :sex, 0, {checked: true} %> 教師
+    </label>
+    <label class="btn btn-outline-secondary" style="width:25%">
+      <%= radio_button :sex, 1, {} %> 生徒
+    </label>
+  </div>
+</div>
 </ul>
 <p><input type="submit" value="登録"></p>
     </div>
