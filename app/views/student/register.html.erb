@@ -1,0 +1,19 @@
+        <h1>KCS北九州情報専門学校</h1>
+        <p><h2><div class="label label-default">登録情報</div></h2></p>
+<ul>
+  <%= form_tag({ controller: :student, action: :login_check},
+  id: :register) do %>
+
+  <li>学生番号　<%= text_field_tag :pass, '', size: 8 %></li><br>
+  <li>クラス　　<%= text_field_tag :pass, '', size: 6 %></li><br>
+  <li>番号　　　<%= text_field_tag :pass, '', size: 3 %></li><br>
+  <li>名前　　　<%= text_field_tag :pass, '', size: 8 %></li><br>
+
+  <input type="radio" name="選択" value="">教師</li>
+    <input type="radio" name="選択" value=""	checked>学生</li>
+</ul>
+<p><input type="submit" value="登録"></p>
+    </div>
+</div>
+</div>
+<% end %>
