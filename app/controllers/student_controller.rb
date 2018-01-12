@@ -3,4 +3,9 @@ class StudentController < ApplicationController
   end
   def password_comp
   end
+
+  def register
+
+
+  end
 end

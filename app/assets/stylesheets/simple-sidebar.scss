@@ -4,9 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 
- body {
-  overflow-x: hidden;
-}
 
 #wrapper {
   padding-left: 0;
@@ -122,4 +119,55 @@
   .testda{
     font-size: 20px;
   }
+}
+.label {
+  display: block;
+  padding: 10px;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  background-color: orange;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  width: 770px;
+  margin: 0 auto;
+}
+
+.labelstudent {
+  display: block;
+  padding: 10px;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  width: 770px;
+  margin: 0 auto;
+}
+
+body {
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  overflow-x: hidden;
+}
+.container-fluid {
+   margin-left:auto;
+   margin-right:auto;
+   text-align:left;
+   width:800px;
+}
+
+.student-info {
+  font-weight: bold;
+  font-size: 1.5em;
+  border: solid 2px gray;
+  padding: 10px;
 }

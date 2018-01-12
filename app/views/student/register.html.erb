@@ -1,5 +1,7 @@
         <h1>KCS北九州情報専門学校</h1>
         <p><h2><div class="label label-default">登録情報</div></h2></p>
+
+
 <ul>
   <%= form_tag({ controller: :student, action: :login_check},
   id: :register) do %>
@@ -12,7 +14,7 @@
   <div class="form-group row">
   <div class="col-sm-2">
   </div>
-  <div class="col-sm-10 btn-group" data-toggle="buttons">
+   <div class="col-sm-10 btn-group" data-toggle="buttons">
     <label class="btn btn-outline-secondary active" style="width:25%">
       <%= radio_button :sex, 0, {checked: true} %> 教師
     </label>
@@ -20,7 +22,7 @@
       <%= radio_button :sex, 1, {} %> 生徒
     </label>
   </div>
-</div>
+
 </ul>
 <p><input type="submit" value="登録"></p>
     </div>
